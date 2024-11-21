@@ -1,2 +1,6 @@
-# Perception-Pipeline-Autonomous-Treasure-Hunting-Robot
- Perception stack for AMRs to identify goal objects 
+# Perception Pipeline for Autonomous Treasure Hunting Robot
+
+NUS ME5400A FINAL PROJECT
+> Authors: Atharva Madkaikar
+
+![cover_image](src/media/cover_image.jpeg)

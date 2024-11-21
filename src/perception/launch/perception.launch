@@ -1,0 +1,10 @@
+<launch>
+
+    <param name="tracker" value="false"/>
+    <param name="model_name" value="yolov8m.pt"/>
+
+    <node name="object_detector_node" pkg="perception" type="object_detector_node.py" output="screen" />
+
+    <node name="object_tracker_node" pkg="perception" type="object_tracker_node.py" output="screen" if="$(arg tracker)" />
+
+</launch>
