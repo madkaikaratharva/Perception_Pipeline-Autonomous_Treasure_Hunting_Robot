@@ -1,0 +1,9 @@
+<launch>
+
+    <param name="depth_width" value="640"/>
+    <param name="depth_height" value="480"/>
+    <param name="color_width" value="640"/>
+    <param name="color_height" value="480"/>
+
+    <node name="realsense_camera_node" pkg="realsense_ros" type="realsense_ros.py" output="screen" />
+</launch>
