@@ -7,7 +7,7 @@ NUS ME5400A FINAL PROJECT
 
 ![cover_image](media/cover_image.jpeg)
 
-**Figure 1:**
+**Figure 1:** Autonomous Treasure Hunting Robot
 
 ## Overview
 
@@ -19,7 +19,8 @@ The stack can also be used as a general purpose perception stack for a wide rang
 
 
 ![pipeline](media/Perception_pipeline.png)
-**Figure 2:**
+
+**Figure 2:** Unified Perception Pipeline
 
 ## Dependencies
 
@@ -90,6 +91,10 @@ roslaunch perception perception.launch
 This will launch the pipeline. Object tracking is enabled by default and can be toggled off by setting the tracker paramater to **False** during launch.
 Disabling object tracking can help minimize GPU utilization and can free up some computational resources.
 
+![working of the pipeline](media/pipeline_workflow.png)
+
+**Figure 3:** Pipeline Workflow
+
 ## Working
 
 * The demo below showcases the working of the Perception stack by selecting and hiding a treasure object (a teddy in this test) within the environment.
@@ -99,14 +104,14 @@ Disabling object tracking can help minimize GPU utilization and can free up some
 
 ![working of peception stack](media/perecption_stack_working.gif)
 
-**Figure 3:** Working of the Perception Stack
+**Figure 4:** Working of the Perception Stack
 
 
 The demo below showcases the process of treasure object selection, treasure recognition, and tracking.
 
 ![Recognition and Tracking](media/Tracking_Recognition.gif)
 
-**Figure 4:** Treasure Selection, Recognition, and Tracking
+**Figure 5:** Treasure Selection, Recognition, and Tracking
 
 
 
