@@ -7,6 +7,7 @@ NUS ME5400A FINAL PROJECT
 
 ![cover_image](media/cover_image.jpeg)
 
+**Figure 1:**
 
 ## Overview
 
@@ -18,7 +19,7 @@ The stack can also be used as a general purpose perception stack for a wide rang
 
 
 ![pipeline](media/Perception_pipeline.png)
-
+**Figure 2:**
 
 ## Dependencies
 
@@ -98,7 +99,18 @@ Disabling object tracking can help minimize GPU utilization and can free up some
 
 ![working of peception stack](media/perecption_stack_working.gif)
 
-**Figure 1:** Working of the Perception Stack
+**Figure 3:** Working of the Perception Stack
+
+
+The demo below showcases the process of treasure object selection, treasure recognition, and tracking.
+
+![Recognition and Tracking](media/Tracking_Recognition.gif)
+
+**Figure 4:** Treasure Selection, Recognition, and Tracking
+
+
+
+**Note:** A detailed explaination of the Perception Stack and it's functionalities can be found in the report included in this repo.
 
 
 
