@@ -86,9 +86,19 @@ roslaunch realsense_ros realsense_ros.launch
 roslaunch perception perception.launch
 ```
 
+This will launch the pipeline. Object tracking is enabled by default and can be toggled off by setting the tracker paramater to **False** during launch.
+Disabling object tracking can help minimize GPU utilization and can free up some computational resources.
 
+## Working
 
+* The demo below showcases the working of the Perception stack by selecting and hiding a treasure object (a teddy in this test) within the environment.
+* The autonomous robot then explores the room, locates a teddy, and approaches it.
+* Once close, the robot extracts the teddy’s color histogram and compares it with the reference histogram of the treasure object.
+* If the histograms match, the robot confirms the object as the treasure object.
 
+![working of peception stack](media/perecption_stack_working.gif)
+
+**Figure 1:** Working of the Perception Stack
 
 
 
